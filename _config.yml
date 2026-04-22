@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Zhihan (Lexi) Lei"
+title                    : "Zhihan (Lex) Lei"
 title_separator          : "-"
 name                     : &name "Zhihan Lei"
 description              : &description "MS Machine Learning student at Carnegie Mellon University"
@@ -23,7 +23,7 @@ repository               : "lexilei/lexilei.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Zhihan (Lexi) Lei"
+  name             : "Zhihan (Lex) Lei"
   pronouns         :
   bio              : "MS student in Machine Learning at CMU. Research in LLM reasoning, retrieval-augmented generation, and agentic systems."
   location         : "Pittsburgh, PA"

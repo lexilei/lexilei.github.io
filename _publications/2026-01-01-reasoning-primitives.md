@@ -7,6 +7,7 @@ excerpt: 'Bottom-up discovery of composable reasoning primitives from ReAct agen
 date: 2026-01-01
 venue: 'In preparation (NeurIPS 2026)'
 citation: '<b>Lei, Z.</b> & Cohen, W. (2026). "From Agent Traces to Reasoning Primitives: Automatic Discovery of Reusable Reasoning Subroutines." <i>In preparation.</i>'
+published: false
 ---
 
 Open-ended ReAct agents are flexible but expensive and inconsistent. This work recovers the structure: we mine traces of successful ReAct runs, cluster recurring reasoning motifs, and distill them into composable primitives that can be re-used as fixed-cost subroutines.
