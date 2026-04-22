@@ -25,9 +25,7 @@ Research experience
 ======
 * **Graduate Researcher**, Carnegie Mellon University — *Jan. 2026 – Present*
   * Advisor: Prof. William Cohen
-  * Bottom-up discovery of composable reasoning primitives from ReAct agent traces; induced workflows achieve 81.3% on MUSR narrative reasoning vs. 68% ReAct and 75% hand-designed baselines.
-  * Identified conclusion aggregation as the critical bottleneck — a single induced primitive accounts for most of the gain; primitives function as implicit prompt scaffolding (+6.7% even when not invoked).
-  * Composed primitives into fixed-cost pipelines with predictable token budgets, enabling accuracy–cost tradeoffs against open-ended agent chains.
+  * Research on LLM reasoning and agentic systems.
 
 * **Researcher**, Emory Machine Learning Lab — *Apr. 2024 – Feb. 2025*
   * Advisor: Prof. Liang Zhao
