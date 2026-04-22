@@ -2,6 +2,7 @@
 title: "SpecDrop: Modular Specialization via Category-Conditioned Dropout"
 excerpt: "Repurposing dropout as a module-level signal to drive specialization in modular networks and MoE language models."
 collection: portfolio
+published: false
 ---
 
 SpecDrop treats dropout not as a regularizer but as a *structured signal*: by conditioning which modules are dropped on the input's category, gradients push each module to specialize on the categories where it is most often kept. A stability-guided freezing rule locks in specialized modules once they converge, preventing re-mixing.

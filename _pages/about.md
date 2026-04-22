@@ -19,7 +19,7 @@ Research interests
 - **Retrieval-augmented generation** — graph-structured retrieval, citation-aware retrieval, hybrid sparse/dense methods
 - **Modular networks** — mixture-of-experts, category-conditioned specialization, domain routing
 
-Outside of research I work on quantitative strategies — volatility arbitrage, statistical arbitrage, and NLP-driven equity signals. See [projects](/portfolio/) for details.
+Outside of research I work on quantitative strategies — volatility arbitrage, statistical arbitrage, and NLP-driven equity signals.
 
 Contact
 ======

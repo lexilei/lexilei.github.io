@@ -2,6 +2,7 @@
 title: "Vol-Smile Arbitrage"
 excerpt: "SPY volatility arbitrage on 4yr EOD NBBO option chains. Combined OOS Sharpe 0.78, FF5+UMD+ΔVIX+VRP alpha t=2.68.<br/>[GitHub](https://github.com/lexilei/vol_smile)"
 collection: portfolio
+published: false
 ---
 
 SPY volatility arbitrage backtest over four years of ThetaData EOD NBBO option chains. I fit per-expiry SVI smiles, compute Black–Scholes IVs, and use an EWMA z-score on moneyness-bucket residuals to flag rich/cheap options. Positions are delta-hedged daily with a VIX regime filter.
