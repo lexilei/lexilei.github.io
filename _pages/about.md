@@ -11,7 +11,7 @@ I'm a Master's student in Machine Learning at Carnegie Mellon University, advise
 
 Before CMU I worked with [Prof. Liang Zhao](https://cs.emory.edu/~lzhao41/) at the Emory Machine Learning Lab on retrieval-augmented generation over graph-structured data. That work produced [GRAG](https://arxiv.org/abs/2405.16506) (NAACL 2025) and [CG-RAG](https://arxiv.org/abs/2501.15067) (SIGIR 2025). I received my B.S. in Physics with a minor in Computer Science from Emory University in 2023.
 
-This summer I'll be an SDE intern at Amazon Ads on the Full-Funnel Agentic Intelligence and Models (FAIM) team, working on causal attribution, incrementality, and A/B experimentation for agentic advertising systems.
+I'm currently an SDE intern at Amazon Ads on the Full-Funnel Agentic Intelligence and Models (FAIM) team, working on causal attribution, incrementality, and A/B experimentation for agentic advertising systems.
 
 Research interests
 ======
