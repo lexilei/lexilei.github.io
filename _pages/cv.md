@@ -31,7 +31,7 @@ Research experience
   * Discovery matches expert design: with no per-task authoring, induced libraries match or exceed hand-authored decompositions on every comparable subtask across MuSR, RuleArena, and NatPlan.
   * Ablations: replacing tool descriptions with adversarial text causes 20–32pp drops on content-critical tasks but no degradation on structure-only ones; cross-judge agreement 96.6%.
   * **Learning to Construct** (co-first author, under review at NeurIPS 2026; co-led a team of 7): casts agent systems as code, enabling automatic construction of efficient agent systems; the cross-benchmark study maps induction across 19 reasoning tasks — gains scale with baseline-tool weakness, e.g. +8.2pp on MedCalc at ~60% fewer input tokens.
-* **Research Assistant**, Rice University — *Sep. 2024 – 2025*
+* **Research Assistant**, Rice University — *Sep. 2024 – May 2025*
   * Advisor: Prof. Xia "Ben" Hu
   * Adaptive framework mitigating relational bias in heterogeneous knowledge graphs: dynamic bias modeling with relational attention and a self-regularizing scheme improving performance on low-frequency relations; evaluated on ACM and BioKG.
 * **Researcher**, Emory Machine Learning Lab — graph learning & retrieval — *Apr. 2024 – Feb. 2025*
