@@ -19,7 +19,7 @@ Research interests
 - **Retrieval-augmented generation** — graph-structured retrieval, citation-aware retrieval, hybrid sparse/dense methods
 - **Modular networks** — mixture-of-experts, category-conditioned specialization, domain routing
 
-Outside of research I do independent quantitative research on NLP-driven equity signals ([alpha-graph](https://github.com/lexilei/alpha-graph)) — currently a point-in-time Lazy Prices replication over 29k SEC filings, and customer-momentum tests on an 11k-edge customer–supplier graph inferred by an LLM from 10-K business sections.
+Outside of research I do independent quantitative research — text-based equity signals, options volatility, and statistical arbitrage.
 
 Contact
 ======

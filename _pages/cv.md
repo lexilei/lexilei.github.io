@@ -54,15 +54,11 @@ Research experience
 
 Quantitative research
 ======
-* **Alpha-Graph: NLP-driven equity signals** — independent — *Mar. 2026 – Present* · [GitHub](https://github.com/lexilei/alpha-graph)
-  * Lazy Prices (JF 2020) replication on 29k point-in-time 10-K/10-Q filings (S&P 500, 2011–2026): year-over-year text change (TF-IDF vs. two embedding families) scored by monthly rank-IC, with as-of text and a purged-CV embargo against look-ahead.
-  * The classic long/short premise fails out of sample: decile returns are U-shaped (bottom decile +1.37%/mo vs. middle +1.19%), invalidating L/S; top-decile long-only (point-in-time) Sharpe 0.81 with FF5+Carhart alpha of +20.6%/yr (Newey–West t = 3.07).
-  * Multiple-testing control via the Deflated Sharpe Ratio (Bailey & López de Prado 2014) over the 11-variant search (PIT DSR 45.6%); sub-period Sharpe decays 1.71 (2016–2019) → 0.04 (2023–2026), consistent with the anomaly being arbitraged away post-2020.
-  * Read 7.6k 10-K business sections with an LLM into an 11k-edge customer–supplier graph; testing whether customer momentum (Cohen & Frazzini 2008) holds on LLM-inferred vs. disclosed links.
-* **Volatility-smile relative value** — independent — *Apr. 2026 – Jul. 2026* · [GitHub](https://github.com/lexilei/vol_smile)
-  * SPY/QQQ options backtest on 4 years of EOD NBBO chains: Black–Scholes IVs, per-expiry SVI smile fits, EWMA z-scores on moneyness-bucket residuals to flag rich/cheap options; daily delta hedging with a VIX regime filter; walk-forward evaluation (39 windows, 126d IS / 63d OOS, 5-day purge).
-* **Statistical arbitrage with Kalman dynamic hedging** — independent — *Jan. 2026 – 2026* · [GitHub](https://github.com/lexilei/quant-statarb-kalman)
-  * Kalman-filter dynamic hedge ratios with recursive Bayesian updates; Engle–Granger cointegration pair selection with AR(1) half-life filtering; walk-forward backtests under sector and beta neutrality.
+Independent research, 2026 – Present. Kept deliberately high-level here; specifics on request.
+
+* **Text-based equity signals** — signal research on SEC filings, with an emphasis on evaluation hygiene: point-in-time data, purged walk-forward validation, factor-model attribution, and explicit multiple-testing control.
+* **Options volatility** — relative-value research on index options: surface fitting, delta-hedged backtesting, regime conditioning.
+* **Statistical arbitrage** — cointegration-based pair strategies with dynamically estimated hedge ratios under sector and beta neutrality.
 
 Professional experience
 ======
