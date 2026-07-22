@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Master's student in Machine Learning at Carnegie Mellon University, advised by [Prof. William Cohen](https://wwcohen.github.io/). My research looks at how large language models reason — specifically, how to discover reusable reasoning primitives from agent traces and compose them into more reliable, cost-predictable pipelines than open-ended ReAct-style chains.
+I'm a Master's student in Machine Learning at Carnegie Mellon University, advised by [Prof. William Cohen](https://wwcohen.github.io/). My research looks at how large language models reason — specifically, how to discover reusable reasoning primitives from agent traces and compose them into more reliable, cost-predictable pipelines than open-ended ReAct-style chains. This work is under review at NeurIPS 2026: [Inducing Reasoning Primitives from Agent Traces](https://arxiv.org/abs/2606.02994) (first author) and [Learning to Construct Practical Agentic Systems](https://arxiv.org/abs/2606.00189) (co-first author).
 
 Before CMU I worked with [Prof. Liang Zhao](https://cs.emory.edu/~lzhao41/) at the Emory Machine Learning Lab on retrieval-augmented generation over graph-structured data. That work produced [GRAG](https://arxiv.org/abs/2405.16506) (NAACL 2025) and [CG-RAG](https://arxiv.org/abs/2501.15067) (SIGIR 2025). I received my B.S. in Physics with a minor in Computer Science from Emory University in 2023.
 
-I'm currently an SDE intern at Amazon Ads on the Full-Funnel Agentic Intelligence and Models (FAIM) team, working on causal attribution, incrementality, and A/B experimentation for agentic advertising systems.
+I'm currently a software engineer intern at Amazon Ads on the Full-Funnel Agentic Intelligence and Models (FAIM) team, building a schema-grounded Redshift-to-PartiQL transpiler driven by an LLM agent — queries are transpiled, execution-validated against benchmark cases, and turned into auto-generated analytics dashboards.
 
 Research interests
 ======
@@ -19,7 +19,7 @@ Research interests
 - **Retrieval-augmented generation** — graph-structured retrieval, citation-aware retrieval, hybrid sparse/dense methods
 - **Modular networks** — mixture-of-experts, category-conditioned specialization, domain routing
 
-Outside of research I work on quantitative strategies — volatility arbitrage, statistical arbitrage, and NLP-driven equity signals.
+Outside of research I do independent quantitative research on NLP-driven equity signals ([alpha-graph](https://github.com/lexilei/alpha-graph)) — currently a point-in-time Lazy Prices replication over 29k SEC filings, and customer-momentum tests on an 11k-edge customer–supplier graph inferred by an LLM from 10-K business sections.
 
 Contact
 ======
