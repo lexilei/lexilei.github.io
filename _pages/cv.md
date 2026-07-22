@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+A PDF version is available [here](/files/cv.pdf).
+
 Education
 ======
 * **M.S. in Machine Learning**, Carnegie Mellon University, Dec. 2026 (expected)
