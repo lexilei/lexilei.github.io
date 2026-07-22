@@ -1,0 +1,76 @@
+/* ==========================================================================
+   PERSONAL RESTYLE
+   Overrides applied on top of the AcademicPages defaults. Imported last
+   from assets/css/main.scss so plain selectors here win the cascade.
+   ========================================================================== */
+
+body {
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Page titles ("About", post titles) render smaller than the theme default */
+.page__title {
+  font-size: $type-size-3;
+}
+
+/* Section headings inside page content (about.md/cv.md use h1-level rules) */
+.page__content {
+  h1, h2 {
+    font-size: $type-size-4;
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  h3 {
+    font-size: 1.05em;
+  }
+
+  a {
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+  }
+}
+
+/* Same heading treatment on archive-layout pages (CV, publications) */
+.archive {
+  h1:not(.page__title) {
+    font-size: $type-size-4;
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+}
+
+/* Brand-black GitHub icon is invisible on the dark background */
+html[data-theme="dark"] {
+  .fa-github,
+  .fa-github-alt,
+  .fa-github-square {
+    color: var(--global-text-color);
+  }
+}
+
+/* Sidebar bio in sans, matching the UI chrome */
+.author__content,
+.author__urls-wrapper {
+  font-family: $sans-serif;
+}
+
+.page__footer {
+  font-family: $sans-serif;
+
+  footer {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+.page__footer-copyright {
+  font-size: $type-size-7;
+  color: var(--global-text-color);
+  opacity: 0.55;
+}
