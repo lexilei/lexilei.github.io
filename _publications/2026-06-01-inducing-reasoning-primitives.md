@@ -1,19 +1,19 @@
 ---
-title: "Inducing Reasoning Primitives from Agent Traces"
+title: "Learning Reusable Agent Subroutines from Experience"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-inducing-reasoning-primitives
-excerpt: 'A self-improvement method: an LLM agent mines its own successful traces into reusable reasoning subroutines invoked as tools at test time. Induced libraries beat their source ReAct agent by +44pp on RuleArena NBA, +30pp on MuSR, +22pp on NatPlan, and beat the AWM agent-memory baseline at ~24% lower inference cost.'
+excerpt: 'ARISE: an LLM agent mines its own successful traces into a library of natural-language subroutines, each executed by a separate LLM call. Across five tasks and two models it beats the strongest of six baselines by 6.1–10.8pp on average, and its source ReAct agent by up to 45.4pp.'
 date: 2026-06-01
-venue: 'Under review (NeurIPS 2026)'
+venue: 'Under review (ICLR 2027)'
 paperurl: 'https://arxiv.org/abs/2606.02994'
-citation: '<b>Lei, Z.</b>, et al. (2026). "Inducing Reasoning Primitives from Agent Traces." <i>arXiv:2606.02994</i>. Under review at NeurIPS 2026.'
+citation: '<b>Lei, Z.</b>, Yan, J., Momo, J., & Cohen, W. W. (2026). "Learning Reusable Agent Subroutines from Experience." <i>arXiv:2606.02994</i>. Under review at ICLR 2027.'
 ---
 
-A gradient-free, test-time route to agent gains, complementary to RL post-training: the agent mines its own successful traces into reusable tools it invokes at test time.
+ARISE (Agent Routine Induction from Successful Experience) is a gradient-free way for an LLM agent to improve from experience: it identifies recurring procedures in the agent's own successful traces and synthesizes them into a reusable library of agent subroutines. Each subroutine is a natural-language specification behind a callable interface, executed by its own LLM call rather than read in the agent's context or rewritten as code.
 
-Induced libraries beat their own source ReAct agent (DeepSeek-V3) — RuleArena NBA 30%→74% (+44pp), +30pp MuSR, +22pp NatPlan, with paired-Δ 95% bootstrap CIs strictly positive — and beat the prior agent-memory baseline (AWM) at ~24% lower inference cost.
+Across five tasks in narrative deduction (MuSR), rule application (RuleArena NBA), and constraint planning (Natural Plan), on DeepSeek-V3 and Gemini 2.5 Flash, ARISE beats the strongest of six baselines (including AWM, ACE, and ASI) by 6.1–10.8pp on average, and the ReAct agent that supplied its traces by up to 45.4pp (RuleArena NBA, 28.8% → 74.2%).
 
-Ablations isolate where the gains come from: replacing tool descriptions with adversarial text causes 20–32pp drops on content-critical tasks but no degradation on structure-only ones (cross-judge agreement 96.6%).
+A controlled ablation isolates the execution interface: holding the induced text fixed, delivering it as retrievable skill documents or as Python tools scores 7.9–19.1pp lower on average. Libraries also transfer unchanged to a different model (+10.7–32.8pp on all five tasks), need no expert-designed tools, and extend to competition math (AIME).
 
-[arXiv:2606.02994](https://arxiv.org/abs/2606.02994)
+[arXiv:2606.02994](https://arxiv.org/abs/2606.02994) · [code](https://github.com/lexilei/reasoning-primitives)
